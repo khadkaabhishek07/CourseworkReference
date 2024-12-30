@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\khadk\\source\\repos\\CourseworkReference\\CourseworkReference\\obj\\Debug\\net8.0-android\\scopedcss\\bundle\\CourseworkReference.styles.css",
+      "PackagePath": "staticwebassets\\CourseworkReference.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\khadk\\source\\repos\\CourseworkReference\\CourseworkReference\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\khadk\\source\\repos\\CourseworkReference\\CourseworkReference\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\khadk\\source\\repos\\CourseworkReference\\CourseworkReference\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\khadk\\source\\repos\\CourseworkReference\\CourseworkReference\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\khadk\\source\\repos\\CourseworkReference\\CourseworkReference\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.CourseworkReference.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.build.CourseworkReference.props",
+      "PackagePath": "build\\CourseworkReference.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildMultiTargeting.CourseworkReference.props",
+      "PackagePath": "buildMultiTargeting\\CourseworkReference.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0-android\\staticwebassets\\msbuild.buildTransitive.CourseworkReference.props",
+      "PackagePath": "buildTransitive\\CourseworkReference.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
