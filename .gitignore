@@ -2,5 +2,5 @@
 .vs/
 
 # Ignore bin and obj folders inside the CourseworkReference folder
-Todo/bin/
-Todo/obj/ 
+CourseworkReference/bin/
+CourseworkReference/obj/ 
