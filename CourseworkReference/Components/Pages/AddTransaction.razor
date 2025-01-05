@@ -1,0 +1,52 @@
+﻿@page "/add"
+@inject LocalDbService local
+
+<h3>Add Transaction</h3>
+
+
+<form @onsubmit="HandleSubmit">
+    <div>
+        <label for="title">Title:</label>
+        <input id="title" @bind="transaction.Title" required />
+    </div>
+    <div>
+        <label for="type">Type:</label>
+        <select id="type" @bind="transaction.Type">
+            <option value=""></option>
+            <option value="Income">Income</option>
+            <option value="Expense">Expense</option>
+        </select>
+    </div>
+    <button type="submit">Add Transaction</button>
+</form>
+
+<ul>
+    @foreach (var item in transactions)
+    {
+        <li>@item.Id @item.Title - @item.Type</li>
+    }
+</ul>
+
+@code {
+    Transaction transaction = new Transaction();
+    List<Transaction> transactions = new List<Transaction>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Fetch all transactions on load
+        transactions = await local.GetAllTransactions();
+    }
+
+    private async Task HandleSubmit()
+    {
+        // Call the create method to insert the transaction
+        await local.CreateTransaction(transaction);
+
+        // Refresh the transaction list
+        transactions = await local.GetAllTransactions();
+
+
+        // Clear the form
+        transaction = new Transaction();
+    }
+}

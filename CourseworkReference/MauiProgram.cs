@@ -15,6 +15,7 @@ namespace CourseworkReference
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddSingleton<LocalDbService>();
 
 #if DEBUG
     		builder.Services.AddBlazorWebViewDeveloperTools();

@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\khadk\source\repos\CourseworkReference\CourseworkReference\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-12-30T01:45:14.296</Modified>
+      <Modified>2025-01-03T06:59:32.080</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\khadk\source\repos\CourseworkReference\CourseworkReference\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-12-28T05:30:41.032</Modified>
+      <Modified>2025-01-01T11:17:32.519</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khadk\source\repos\CourseworkReference\CourseworkReference\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CourseworkReference.runtimeconfig.json">
       <PackagePath>CourseworkReference.runtimeconfig.json</PackagePath>
-      <Modified>2024-12-28T05:30:40.639</Modified>
+      <Modified>2025-01-01T11:17:32.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khadk\source\repos\CourseworkReference\CourseworkReference\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CourseworkReference.dll">
       <PackagePath>CourseworkReference.dll</PackagePath>
-      <Modified>2024-12-29T01:34:07.376</Modified>
+      <Modified>2025-01-01T11:36:22.153</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khadk\source\repos\CourseworkReference\CourseworkReference\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>CourseworkReference.exe</PackagePath>
-      <Modified>2024-12-29T01:34:07.470</Modified>
+      <Modified>2025-01-01T11:36:22.168</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khadk\source\repos\CourseworkReference\CourseworkReference\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -304,7 +304,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khadk\source\repos\CourseworkReference\CourseworkReference\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\CourseworkReference.deps.json">
       <PackagePath>CourseworkReference.deps.json</PackagePath>
-      <Modified>2024-12-28T05:30:40.466</Modified>
+      <Modified>2025-01-01T11:17:31.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
@@ -506,6 +506,22 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2024-03-11T10:57:44.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2024-03-27T22:22:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\sqlitepclraw.bundle_green\2.1.10\lib\netstandard2.0\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2024-09-11T20:14:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\sqlitepclraw.core\2.1.10\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2024-09-11T20:12:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\sqlitepclraw.provider.e_sqlite3\2.1.10\lib\net6.0-windows7.0\SQLitePCLRaw.provider.e_sqlite3.dll">
+      <PackagePath>SQLitePCLRaw.provider.e_sqlite3.dll</PackagePath>
+      <Modified>2024-09-11T20:12:38.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\system.io.pipelines\8.0.0\lib\net8.0\System.IO.Pipelines.dll">
       <PackagePath>System.IO.Pipelines.dll</PackagePath>
       <Modified>2023-10-31T14:59:26.000</Modified>
@@ -653,6 +669,10 @@
     <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\runtimes\win10-x64\native\Microsoft.WindowsAppRuntime.Bootstrap.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2024-03-08T18:44:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.1.10\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2024-09-11T20:05:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\khadk\.nuget\packages\microsoft.maui.controls.compatibility\8.0.61\lib\net8.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
