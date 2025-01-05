@@ -1,6 +1,6 @@
 # Ignore .vs folder
 .vs/
 
-# Ignore bin and obj folders inside the CourseworkReference folder
+# Ignore bin and obj folders inside the CourseworkReference folders
 CourseworkReference/bin/
 CourseworkReference/obj/ 
